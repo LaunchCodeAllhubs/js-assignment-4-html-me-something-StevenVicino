@@ -1,1 +1,20 @@
-/* Write your CSS here! */
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+img{
+    border: 1em solid black;
+}
+
+#mainHeading{
+    color:red;
+}
+
+.funParagraph {
+    color:green;
+}
+
+#testP {
+    font-style: italic;
+}

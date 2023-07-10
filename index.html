@@ -1,8 +1,79 @@
 <!DOCTYPE html>
 <html>
-   <head>
-   </head>
-   <body>
-      <!-- Write your HTML in this file! -->
-   </body>
+  <head>
+    <title>HTML ME SOMETHING</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="mainHeading">HTML Me Something</h1>
+      <h2>A short story about the amazing Todd Howard</h2>
+      <img
+        src="data:image/jpeg;base64,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"
+        alt="Todd-God"
+      />
+    </header>
+    <main>
+      <article>
+        <p>
+          Once upon a time in the bustling city of Gameville, there lived a
+          mischievous game developer named Todd Howard. Known for his
+          charismatic charm and penchant for wild ideas, Todd was always cooking
+          up the next big thing in the gaming industry.
+        </p>
+        <p class="funParagraph" id="testP">
+          One day, Todd had a brilliant idea for a new game called "Todd
+          Howard's Epic Adventure." The concept was simple yet outrageous.
+          Players would step into Todd's shoes and navigate through a virtual
+          world filled with absurd quests and eccentric characters.
+        </p>
+        <p>
+          But little did Todd know that his game would come to life in the most
+          unexpected way. As he prepared for a grand presentation at a gaming
+          convention, a mysterious surge of energy surged through his computer,
+          enveloping him in a blinding light. When the light faded, Todd found
+          himself transported into his very own game.
+        </p>
+        <p>
+          Confused and disoriented, Todd realized that he had become the
+          protagonist of "Todd Howard's Epic Adventure." He had to complete
+          outlandish tasks like finding his lost car keys in a dungeon guarded
+          by chickens or negotiating peace between rival factions of talking
+          squirrels.
+        </p>
+        <p>
+          With each passing quest, Todd encountered hilarious glitches and
+          unexpected twists. He encountered a bumbling NPC who could only
+          communicate through dance moves and battled a boss with an absurdly
+          overpowered weapon—the "Mighty Rubber Chicken of Doom."
+        </p>
+        <p>
+          As Todd progressed through the game, he couldn't help but chuckle at
+          the absurdity of it all. He had become the embodiment of his own wild
+          ideas, experiencing firsthand the joys and frustrations that players
+          often encountered in his games.
+        </p>
+        <p>
+          In the end, Todd managed to conquer the final boss—a giant, pixelated
+          hamster with an insatiable appetite for cheese. As he celebrated his
+          victory, Todd realized that the greatest adventure was the laughter
+          and joy his game had brought to players around the world.
+        </p>
+        <p>
+          With a newfound appreciation for the power of comedy and imagination,
+          Todd returned to the real world, forever changed by his wacky journey.
+          And from that day forward, he continued to create games that not only
+          pushed the boundaries of technology but also brought smiles to the
+          faces of players everywhere.
+        </p>
+        <p>
+          And so, the legend of Todd Howard, the game developer who became the
+          star of his own whimsical adventure, spread far and wide, inspiring
+          laughter and delight in the hearts of gamers for generations to come.
+        </p>
+      </article>
+    </main>
+    <footer>&copy;Bethesda</footer>
+  </body>
 </html>
